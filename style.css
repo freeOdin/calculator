@@ -2,7 +2,7 @@
     display: flex;
 }
 
-.display, .clear, .number, .button {
+.display, .clear, .number, .button, .clear {
     font-size: 32px;
     border-style: solid;
     border-radius: 8px;
@@ -29,4 +29,8 @@
 
 .button {
     background-color: lightgray;
+}
+
+.clear {
+    background-color: lightblue;
 }
